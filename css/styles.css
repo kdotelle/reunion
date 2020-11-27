@@ -1,0 +1,39 @@
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.jumbotron  {
+    background-image: url("/images/group.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.row-content {
+    border-bottom: 2px outset;
+    padding: 20px 0;
+}
+
+.column-content {
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}

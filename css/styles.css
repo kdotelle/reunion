@@ -1,17 +1,21 @@
 h1 {
     font-family: "Pacifico", cursive;
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     text-shadow: 2px 2px black;
 }
 
 h2 {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
+#steel {
+    font-size: 60px;
+}
+
+body {
+    background-color: #F5F5F5;
 }
 
 .jumbotron  {
@@ -36,4 +40,20 @@ body, html {
 
 p {
     font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.site-footer {
+    background: #202020;
+}
+
+footer h5 {
+    color: white;
+}
+
+.contact {
+    color: white;
 }

@@ -1,7 +1,7 @@
 h1 {
-    font-family: "Pacifico", cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 80px;
-    color: white;
+    color: #ebc670;
     text-shadow: 2px 2px black;
 }
 
@@ -23,7 +23,7 @@ h3 {
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: #EEEEEE;
 }
 
 .jumbotron  {

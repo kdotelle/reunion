@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
     <link rel="stylesheet" href="css/styles.css" />
@@ -19,7 +20,7 @@
 <body>
 
     <header class="jumbotron">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row" id="header">
                 <div class="col header-text justify-content-center text-center">
                     <h1>Mosley Family Reunion</h1>
@@ -27,17 +28,18 @@
             </div>
         </div>
     </header>
-
+    
     <div class="container">
-        <div class="row row-content d-flex flex-row flex-wrap justify-content-center text-center align-items-start">
-            <div class="col">
-                <h2>Bonds as Strong as Steel</h2>
+        <!--Introduction Row-->
+        <div class="row row-content d-flex flex-row flex-wrap justify-content-center text-center align-items-start" id="intro">
+            <div class="col-12">
+                <h2 id="steel">Bonds as Strong as Steel</h2>
                 <h3>Bring Your "A" Game</h3>
                 <p>Since we will be gathering in what we like to call "The City of Champions" - Let's see what you got! Nothing like a little friendly competition amongst family.  Come with your "A" game ready to have some fun and excitement while getting to know and Love on each other. </p>
             </div>
         </div>
         <!--Details Row-->
-        <div class="row row-content d-flex flex-row flex-wrap justify-content-center text-center align-items-start">
+        <div class="row row-content" id="details">
             <div class="col-sm-4 column-content ml-mr-auto">
                 <h2>When</h2>
                 <h3>Memorial Day Weekend</h3>
@@ -46,6 +48,7 @@
             <div class="col-sm-4 column-content ml-mr-auto">
                 <h2>Where</h2>
                 <p>Pittsburgh, PA</p>
+                <img class="img-responsive" src="images/pittsburgh.jpg" />
             </div>
             <div class="col-sm-4 column-content ml-mr-auto">
                 <h2>Hotel</h2>
@@ -55,7 +58,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
@@ -75,9 +78,10 @@
                     <a href="http://twitter.com/">Twitter</a>
                     <a href="http://youtube.com/">YouTube</a>
                 </div>
-                <div class="col-sm-4">
-                    Tel: 1-555-555-5555<br />
-                    Email: rachel@email.com
+                <div class="col-sm-4 contact">
+                    <h5>Contact</h5>
+                    <i class="fa fa-phone fa-lg text-secondary"> </i>Tel: 1-555-555-5555 <br />
+                    <i class="fa fa-envelope fa-lg text-secondary"> </i>Email: rachel@email.com
                 </div>
             </div>
         </div>

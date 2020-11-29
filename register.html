@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Mosley Family Reunion</title>
+</head>
+
+<body>
+<!--Header-->
+    <header class="jumbotron">
+        <div class="container-fluid">
+            <div class="row d-flex flex-row flex-wrap" id="header">
+                <div class="col header-text justify-content-center text-center">
+                    <h1>Mosley Family Reunion</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <h2>Let's Talk Cost</h2>
+                  <p>We have worked hard to keep the cost as low as possible so that everyone who desires to come can attend.</p>
+                  <div class="table-responsive-lg">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                        <tr class="table-warning">
+                            <th scope="col"></th>
+                            <th scope="col">Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="table-secondary">
+                            <th scope="row">Hotel</th>
+                            <td>$129/Night<br>$14/Night Parking</td>
+                        </tr>
+                        <tr class="table-warning"> 
+                            <th scope="row">Cookout</th>
+                            <td>$20/Person - 13 years and older<br>$10/Person - Children ages 3 - 12</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">Sunday Brunch</th>
+                            <td>$55/Person - 13 years and older<br>$23/Person - Children ages 3 - 12<br>Children under 3 eat free if they will be eating from their parent's plate</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <th scope="row">Miscellaneous Expenses</th>
+                            <td>$15</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">T-Shirt(Optional)</th>
+                            <td>$12 - $15 <em>(T-shirt orders MUST be received by April 20, 2020)</em></td>
+                        </tr>
+                        <tr class="table-warning">
+                            <th scope="row">Family Photo(optional)</th>
+                            <td>$25/Family <em>(Must fill out order form)</em></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+          </div>
+      </div>
+
+    <footer class="site-footer text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 text-center">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            <!--Social Media Links-->
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"> <i class="fa fa-instagram fa-2x"> </i> </a>
+                    <a href="https://www.facebook.com/mosleyfamily"> <i class="fa fa-facebook fa-2x"> </i> </a>
+                    <a href="http://twitter.com/"> <i class="fa fa-twitter fa-2x"> </i> </a>
+                    <a href="http://youtube.com/"> <i class="fa fa-youtube fa-2x"> </i> </a>
+                </div>
+                <!--Contact Info-->
+                <div class="col-sm-4 text-light text-center">
+                    <h5>Contact</h5>
+                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone fa-lg text-secondary"> </i>Tel: 1-555-555-5555 </a><br />
+                    <a role="button" class="btn btn-link" href="mailto:rachel@email.com"><i class="fa fa-envelope fa-lg text-secondary"> </i>Email: rachel@email.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

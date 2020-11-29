@@ -46,7 +46,7 @@ body {
     flex-direction: column;
 }
 
-p {
+h4, h5, p {
     font-family: 'Lato', sans-serif;
     text-align: center;
 }

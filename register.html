@@ -37,10 +37,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Register<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -52,9 +52,9 @@
           </ul>
         </div>
       </nav>
-    
+    <!--Registration Container-->
       <div class="container">
-          <div class="row">
+          <div class="row row-content">
               <div class="col">
                   <h2>Let's Talk Cost</h2>
                   <p>We have worked hard to keep the cost as low as possible so that everyone who desires to come can attend.</p>
@@ -94,6 +94,45 @@
                         </tbody>
                     </table>
                 </div>
+              </div>
+          </div>
+          <!--Request Form-->
+          <div class="row row-content">
+              <div class="col">
+                  <h2>Request Reservation Form</h2>
+              </div>
+              <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telNum" class="col-md-2 col-form-label">Telephone</label>
+                        <div class="col-md-10">
+                            <input type="tel" class="form-control" id="telNum" name="telNum" placeholder="Telephone Number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-warning">Request Form</button>
+                        </div>
+                    </div>
+                </form>
               </div>
           </div>
       </div>

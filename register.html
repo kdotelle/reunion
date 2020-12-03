@@ -29,7 +29,7 @@
             </div>
         </div>
     </header>
-    <!--Navbar-->
+<!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
         <a class="navbar-brand" href="#"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,47 +96,66 @@
                 </div>
               </div>
           </div>
-          <!--Request Form-->
+    <!--Request Form Button-->
           <div class="row row-content">
-              <div class="col">
-                  <h2>Request Reservation Form</h2>
-              </div>
               <div class="col-md-10">
-                <form>
-                    <div class="form-group row">
-                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
-                        </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#reserveModal">Request Reservation Form</button>
                     </div>
-                    <div class="form-group row">
-                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="telNum" class="col-md-2 col-form-label">Telephone</label>
-                        <div class="col-md-10">
-                            <input type="tel" class="form-control" id="telNum" name="telNum" placeholder="Telephone Number" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-md-2 col-form-label">Email</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-warning">Request Form</button>
-                        </div>
-                    </div>
-                </form>
+                </div>
+                
               </div>
           </div>
       </div>
-
+    <!--Reserve Form Modal-->
+      <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Request Reservation Form</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>A reservation form will be sent to you via email</p>
+                    <div class="container-fluid">
+                <!--Reservation Request Form-->
+                        <form>
+                            <div class="form-group col-12">
+                                <label for="firstName" class="sr-only">First Name</label>
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control form-control-sm" id="firstName" name="firstName" placeholder="First Name" />
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="lastName" class="sr-only">Last Name</label>
+                                <div class="form-group col-12">
+                                    <input type="text" class="form-control form-control-sm" id="lastName" name="lastName" placeholder="Last Name" />
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="telNum" class="sr-only">Telephone</label>
+                                <div class="form-group col-12">
+                                    <input type="tel" class="form-control form-control-sm" id="telNum" name="telNum" placeholder="Telephone Number" />
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <label for="email" class="sr-only">Email</label>
+                                <div class="form-group col-12">
+                                    <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
     <footer class="site-footer text-light">
         <div class="container">
             <div class="row">
@@ -157,7 +176,7 @@
                     <a href="http://twitter.com/"> <i class="fa fa-twitter fa-2x"> </i> </a>
                     <a href="http://youtube.com/"> <i class="fa fa-youtube fa-2x"> </i> </a>
                 </div>
-                <!--Contact Info-->
+            <!--Contact Info-->
                 <div class="col-sm-4 text-light text-center">
                     <h5>Contact</h5>
                     <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone fa-lg text-secondary"> </i>Tel: 1-555-555-5555 </a><br />

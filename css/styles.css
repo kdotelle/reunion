@@ -71,3 +71,26 @@ img {
 #reserveModal .modal-body{
     background: FEEFBA;
 }
+
+.carousel {
+    border: solid #202020;;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  color: #fff;
+}

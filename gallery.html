@@ -58,9 +58,9 @@
         <div class="row row-content">
             <div class="col-md-10 mx-auto">
                 <h2>Gallery</h2>
-                <div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                    <!--Carousel Components and Captions-->
-                    <div class="carousel-inner">
+                <div id="homeCarousel" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                    <!--Carousel Components-->
+                    <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img class="d-block w-100 img-fluid" src="images/group2012.jpg" alt="Group Photo from 2012" />
                         </div>
@@ -97,13 +97,49 @@
                     </div>
                     <!--Carousel Controls-->
                     <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                <!--Carousel Thumbnails-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active">
+                            <img class="d-block w-100 img-fluid" src="images/group2012.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="1">
+                            <img class="d-block w-100 img-fluid" src="images/girls_picnic.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="2">
+                            <img class="d-block w-100 img-fluid" src="images/guys_picnic.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="3">
+                            <img class="d-block w-100 img-fluid" src="images/shoulder_ride.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="4">
+                            <img class="d-block w-100 img-fluid" src="images/_DSC0017.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="5">
+                            <img class="d-block w-100 img-fluid" src="images/_DSC0134.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="6">
+                            <img class="d-block w-100 img-fluid" src="images/_DSC7248.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="7">
+                            <img class="d-block w-100 img-fluid" src="images/_DSC7288.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="8">
+                            <img class="d-block w-100 img-fluid" src="images/choir.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="9">
+                            <img class="d-block w-100 img-fluid" src="images/leo_church.jpg" width="100">
+                        </li>
+                        <li data-target="#homeCarousel" data-slide-to="10">
+                            <img class="d-block w-100 img-fluid" src="images/gina_church.jpg" width="100">
+                        </li>
+                    </ol>
             <!--Carousel Buttons-->
                     <button class="btn btn-warning btn-sm" id="carouselButton">
                         <i class="fa fa-pause-circle fa-2x"></i>

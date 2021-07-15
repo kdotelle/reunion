@@ -1,186 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Mosley Family Reunion</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
+    <!--Header-->
     <header class="jumbotron">
-        <div class="container-fluid">
-            <div class="row d-flex flex-row flex-wrap" id="header">
-                <div class="col header-text justify-content-center text-center">
-                    <h1>Mosley Family Reunion</h1>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row d-flex flex-row flex-wrap" id="header">
+          <div class="col header-text justify-content-center text-center">
+            <h1>Mosley Family Reunion</h1>
+          </div>
         </div>
+      </div>
     </header>
     <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
-        <a class="navbar-brand" href="#"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="register.html">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    
+      <a class="navbar-brand" href="#"> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container">
-        <!--Introduction Row-->
-        <div class="row row-content d-flex flex-row flex-wrap justify-content-center text-center align-items-start" id="intro">
-            <div class="col-12">
-                <h2 id="steel">Bonds as Strong as Steel</h2>
-                <h3>Bring Your "A" Game</h3>
-                <p>Since we will be gathering in what we like to call "The City of Champions" - Let's see what you got! Nothing like a little friendly competition amongst family.  Come with your "A" game ready to have some fun and excitement while getting to know and Love on each other. </p>
-            </div>
+      <!--Introduction Row-->
+      <div
+        class="
+          row row-content
+          d-flex
+          flex-row flex-wrap
+          justify-content-center
+          text-center
+          align-items-start
+        "
+        id="intro"
+      >
+        <div class="col-12">
+          <h2 id="steel">Bonds as Strong as Steel</h2>
+          <h3>Bring Your "A" Game</h3>
+          <p>
+            There has been a change of plans. While we were excited to invite
+            you all to the steel city of Pittsburgh, PA, we've decided to move
+            the reunion locatino to Oglebay resort in wild, wonderful, Wheeling,
+            WV. Oglebay Resort provides a picturesque setting and we'll be able
+            to host all reunion activities on-site as well as have access to
+            various amenities the resort has to offer.
+          </p>
         </div>
-        <!--Details Row-->
-        <div class="row row-content" id="details">
-            <div class="col-sm-4 column-content ml-mr-auto">
-                <h2>When</h2>
-                <i class="fa fa-calendar-check-o fa-3x mx-auto" style="color: #E3B343;"> </i>
-                <h3>Memorial Day Weekend</h3>
-                <p class="d-none d-sm-block">Friday, May 22 - Sunday, May 24, 2020</p>
-            </div>
-            <div class="col-sm-4 column-content ml-mr-auto">
-                <h2>Where</h2>
-                <i class="fa fa-map fa-3x mx-auto" style="color: #E3B343;"> </i>
-                <h3>Pittsburgh, PA</h3>
-                <div class="media d-none d-sm-block">
-                    <img class="img-thumbnail d-flex mx-auto" src="images/pittsburgh.jpg" />
-                </div>
-            </div>
-            <div class="col-sm-4 column-content ml-mr-auto">
-                <h2>Hotel</h2>
-                <i class="fa fa-building-o fa-3x mx-auto" style="color: #E3B343;"> </i>
-                <h3>The Wyndham Pittsburgh University Center</h3>
-                <p class="d-none d-sm-block">The Wyndham Pittsburgh University Center has opened its doors to us at a rate of $129 per night/per room with a negotiated parking rate of $14/night which is not included.</p>
-            </div>
+      </div>
+      <!--Details Row-->
+      <div class="row row-content" id="details">
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>When</h2>
+          <i
+            class="fa fa-calendar-check-o fa-3x mx-auto"
+            style="color: #e3b343"
+          >
+          </i>
+          <h3>Memorial Day Weekend</h3>
+          <p class="d-none d-sm-block">Friday, May 27 - Monday, May 30, 2022</p>
         </div>
-        <!--Itenerary-->
-        <div class="row row-content">
-            <div class="col">
-                <h2>Itenerary</h2>
-                <div class="row">
-                    <div class="col-sm-4 column-content ml-mr-auto">
-                        <h3>Friday, May 22</h3>
-                        <h4>Welcome Reception</h4>
-                        <p>6:00pm - 10:00pm</p>
-                        <h5 class="d-none d-sm-block">Wyndham University Center Restaurant Patio</h5>
-                        <p class="d-none d-sm-block">There is nothing more exciting than that first "hello" and the excitement of the warm embrace from a family member that you have not seen in a while.</p>
-                    </div>
-                    <div class="col-sm-4 column-content ml-mr-auto">
-                        <h3>Saturday, May 23</h3>
-                        <h4>Family Cookout</h4>
-                        <p>12:00pm - 4:30pm</p>
-                        <h5 class="d-none d-sm-block">Monroeville Community Park West</h5>
-                        <p class="d-none d-sm-block">23999 Tillbrook Rd Monroeville, PA 15146<br>Pavillion #3</p>
-                        <h5 class="d-none d-sm-block">Family Competition</h5>
-                    </div>
-                    <div class="col-sm-4 column-content ml-mr-auto">
-                        <h3>Sunday, May 24</h3>
-                        <h4>Family Church Service</h4>
-                        <p>9:30am</p>
-                        <h5 class="d-none d-sm-block">The University Club 123 University Place Pittsburgh, PA 15260</h5>
-                        <p class="d-none d-sm-block">The University Club is located 3 blocks from the hotel. If driving, the ramp entrance to the Club is on Thackeray Ave.  We'll arrange a time for everyone to catch the hotel shuttle to the facility</p>
-                        <h5>Brunch Banquet</h5>
-                        <p>11:30am - 2:00pm</p>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>Where</h2>
+          <i class="fa fa-map fa-3x mx-auto" style="color: #e3b343"> </i>
+          <h3>Wheeling, WV</h3>
+          <div class="media d-none d-sm-block">
+            <img
+              class="img-thumbnail d-flex mx-auto"
+              src="images/wheeling.jpg"
+            />
+          </div>
         </div>
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>Hotel</h2>
+          <i class="fa fa-building-o fa-3x mx-auto" style="color: #e3b343"> </i>
+          <h3>Oglebay Resort</h3>
+          <p class="d-none d-sm-block">
+            The Oglebay Resort has opened its doors to us at varying rates
+            starting at $149.00 per room, per night with free on-site parking.
+          </p>
+        </div>
+      </div>
+      <!--Itinerary-->
+      <div class="row row-content">
+        <div class="col">
+          <h2>Itinerary</h2>
+          <div class="row">
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Friday, May 22</h3>
+              <h4>Welcome Reception</h4>
+              <p>6:00pm - 10:00pm</p>
+              <h5 class="d-none d-sm-block">
+                Wyndham University Center Restaurant Patio
+              </h5>
+              <p class="d-none d-sm-block">
+                There is nothing more exciting than that first "hello" and the
+                excitement of the warm embrace from a family member that you
+                have not seen in a while.
+              </p>
+            </div>
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Saturday, May 28</h3>
+              <h4>Family Cookout</h4>
+              <p>12:00pm - 4:30pm</p>
+              <h5 class="d-none d-sm-block">Wagon Shed Shelter</h5>
+              <p class="d-none d-sm-block">
+                A classic stable design located near Schenk Lake, the children's
+                playground and the miniature golf course.<br />Features
+                electricity only and restrooms located nearby.
+              </p>
+              <h5 class="d-none d-sm-block">Family Competition</h5>
+            </div>
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Sunday, May 29</h3>
+              <h4>Family Church Service</h4>
+              <p>9:30am</p>
+              <h5 class="d-none d-sm-block">Fort Henry Room</h5>
+              <p class="d-none d-sm-block">
+                Immediately following church service we will have a Brunch
+                Banquet in the same room.
+              </p>
+              <h5>Brunch Banquet</h5>
+              <p>11:30am - 2:00pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!--Things to do-->
-        <div class="row row-content">
-            <div class="col">
-                <h2>Things to do While in Pittsburgh</h2>
-                <div class="row row-content">
-                    <div class="col-sm-6 column-content ml-mr-auto">
-                        <h3>Cultural Sights</h3>
-                        <ul >
-                            <li>Carnegie Natural History and Art Museums</li>
-                            <li>Cathedral of Learning</li>
-                            <li>Phipps Conservatory and Botanical Garden</li>
-                            <li>Schenley Plaza Merry-Go-Round</li>
-                            <li>Schenley Park</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 column-content ml-mr-auto">
-                        <h3>Restaurants and Eateries</h3>
-                        <ul>
-                            <li>Pamela's Diner</li>
-                            <li>The Porch at Schenley</li>
-                            <li>The Milkshake Factory</li>
-                            <li>Mad Mex - Creative Mexican-Fusion</li>
-                        </ul>
-                    </div>
-                </div>
+      <!--Things to do-->
+      <div class="row row-content">
+        <div class="col">
+          <h2>Things To Do While At Oglebay</h2>
+          <div class="row">
+            <div class="col-sm-6 column-content ml-mr-auto">
+              <h3><a href="https://oglebay.com/activities/">Activities</a></h3>
+              <ul>
+                <li>Good Zoo</li>
+                <li>The West Spa</li>
+                <li>Horseback Riding</li>
+                <li>Wheeling Park and Outdoor Pool</li>
+                <li>Aerial Challenge Course & Rock Climbing Wall</li>
+              </ul>
             </div>
+            <div class="col-sm-6 column-content ml-mr-auto">
+              <h3>
+                <a href="https://oglebay.com/dining/">Dining</a>
+              </h3>
+              <ul>
+                <li>Glassworks Grill</li>
+                <li>Garden Bistro</li>
+                <li>Route 88 BBQ & Brew</li>
+                <li>Farmhouse Sweets & Treats</li>
+                <li>Crispin Cafe</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
+    <!--Footer-->
     <footer class="site-footer text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 text-center">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            <!--Social Media Links-->
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a href="http://instagram.com/"> <i class="fa fa-instagram fa-2x"> </i> </a>
-                    <a href="https://www.facebook.com/mosleyfamily"> <i class="fa fa-facebook fa-2x"> </i> </a>
-                    <a href="http://twitter.com/"> <i class="fa fa-twitter fa-2x"> </i> </a>
-                    <a href="http://youtube.com/"> <i class="fa fa-youtube fa-2x"> </i> </a>
-                </div>
-                <!--Contact Info-->
-                <div class="col-sm-4 text-light text-center">
-                    <h5>Contact</h5>
-                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone fa-lg text-secondary"> </i>Tel: 1-555-555-5555 </a><br />
-                    <a role="button" class="btn btn-link" href="mailto:rachel@email.com"><i class="fa fa-envelope fa-lg text-secondary"> </i>Email: rachel@email.com</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 text-center">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <!--Social Media Links-->
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a href="http://instagram.com/">
+              <i class="fa fa-instagram fa-2x"> </i>
+            </a>
+            <a href="https://www.facebook.com/mosleyfamily">
+              <i class="fa fa-facebook fa-2x"> </i>
+            </a>
+            <a href="http://twitter.com/">
+              <i class="fa fa-twitter fa-2x"> </i>
+            </a>
+            <a href="http://youtube.com/">
+              <i class="fa fa-youtube fa-2x"> </i>
+            </a>
+          </div>
+          <!--Contact Info-->
+          <div class="col-sm-4 text-light text-center">
+            <h5>Contact</h5>
+            <a role="button" class="btn btn-link" href="tel:+15555555555"
+              ><i class="fa fa-phone fa-lg text-secondary"> </i>Tel:
+              1-555-555-5555 </a
+            ><br />
+            <a role="button" class="btn btn-link" href="mailto:rachel@email.com"
+              ><i class="fa fa-envelope fa-lg text-secondary"> </i>Email</a
+            >
+          </div>
         </div>
+      </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>

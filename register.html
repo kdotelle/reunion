@@ -1,195 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Mosley Family Reunion</title>
-</head>
+  </head>
 
-<body>
-<!--Header-->
+  <body>
+    <!--Header-->
     <header class="jumbotron">
-        <div class="container-fluid">
-            <div class="row d-flex flex-row flex-wrap" id="header">
-                <div class="col header-text justify-content-center text-center">
-                    <h1>Mosley Family Reunion</h1>
-                </div>
-            </div>
-        </div>
-    </header>
-<!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
-        <a class="navbar-brand" href="#"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Register<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <!--Registration Container-->
-      <div class="container">
-          <div class="row row-content">
-              <div class="col">
-                  <h2>Let's Talk Cost</h2>
-                  <p>We have worked hard to keep the cost as low as possible so that everyone who desires to come can attend.</p>
-                  <div class="table-responsive-lg">
-                    <table class="table table-striped table-hover">
-                        <thead>
-                        <tr class="table-warning">
-                            <th scope="col"></th>
-                            <th scope="col">Price</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr class="table-secondary">
-                            <th scope="row">Hotel</th>
-                            <td>$129/Night<br>$14/Night Parking</td>
-                        </tr>
-                        <tr class="table-warning"> 
-                            <th scope="row">Cookout</th>
-                            <td>$20/Person - 13 years and older<br>$10/Person - Children ages 3 - 12</td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">Sunday Brunch</th>
-                            <td>$55/Person - 13 years and older<br>$23/Person - Children ages 3 - 12<br>Children under 3 eat free if they will be eating from their parent's plate</td>
-                        </tr>
-                        <tr class="table-warning">
-                            <th scope="row">Miscellaneous Expenses</th>
-                            <td>$15</td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">T-Shirt(Optional)</th>
-                            <td>$12 - $15 <em>(T-shirt orders MUST be received by April 20, 2020)</em></td>
-                        </tr>
-                        <tr class="table-warning">
-                            <th scope="row">Family Photo(optional)</th>
-                            <td>$25/Family <em>(Must fill out order form)</em></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-              </div>
+      <div class="container-fluid">
+        <div class="row d-flex flex-row flex-wrap" id="header">
+          <div class="col header-text justify-content-center text-center">
+            <h1>Mosley Family Reunion</h1>
           </div>
-    <!--Request Form Button-->
-          <div class="row row-content">
-              <div class="col-md-10">
-                <div class="form-group row">
-                    <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#reserveModal">Request Reservation Form</button>
-                    </div>
-                </div>
-                
-              </div>
-          </div>
+        </div>
       </div>
-    <!--Reserve Form Modal-->
-      <div id="reserveModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Request Reservation Form</h2>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <p>A reservation form will be sent to you via email</p>
-                    <div class="container-fluid">
-                <!--Reservation Request Form-->
-                        <form>
-                            <div class="form-group col-12">
-                                <label for="firstName" class="sr-only">First Name</label>
-                                <div class="form-group col-12">
-                                    <input type="text" class="form-control form-control-sm" id="firstName" name="firstName" placeholder="First Name" />
-                                </div>
-                            </div>
-                            <div class="form-group col-12">
-                                <label for="lastName" class="sr-only">Last Name</label>
-                                <div class="form-group col-12">
-                                    <input type="text" class="form-control form-control-sm" id="lastName" name="lastName" placeholder="Last Name" />
-                                </div>
-                            </div>
-                            <div class="form-group col-12">
-                                <label for="telNum" class="sr-only">Telephone</label>
-                                <div class="form-group col-12">
-                                    <input type="tel" class="form-control form-control-sm" id="telNum" name="telNum" placeholder="Telephone Number" />
-                                </div>
-                            </div>
-                            <div class="form-group col-12">
-                                <label for="email" class="sr-only">Email</label>
-                                <div class="form-group col-12">
-                                    <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="Email" />
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    </header>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
+      <a class="navbar-brand" href="#"> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Register<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Registration Container-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Let's Talk Cost</h2>
+          <p>
+            We have worked hard to keep the cost as low as possible so that
+            everyone who desires to come can attend. The Cottages are limited
+            and will be reserved on a first come, first serve basis. All prices
+            listed are per room or per cottage, per night and do not include
+            taxes and applicable fees.
+          </p>
+          <div class="table-responsive-lg">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr class="table-warning">
+                  <th scope="col"></th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-secondary">
+                  <th scope="row">Hotel</th>
+                  <td>
+                    <b>Byrd Wing</b> $149.00/night
+                    <br />
+                    <b>West Wing</b> $189.00/night
+                    <br />
+                    <b>Lakeside Wing</b> $209.00/night
+                    <br />
+                    <b>Hospitality Suite</b> $209.00
+                    <br />
+                    <b>4 Bedroom Deluxe Cottage</b> $599.00/night
+                    <br />
+                    <b>4 Bedroom Standard Cottage</b> $450.00/night
+                  </td>
+                </tr>
+                <tr class="table-warning">
+                  <th scope="row">Cookout</th>
+                  <td>
+                    $20/Person - 13 years and older<br />$10/Person - Children
+                    ages 3 - 12
+                  </td>
+                </tr>
+                <tr class="table-secondary">
+                  <th scope="row">Sunday Brunch</th>
+                  <td>
+                    $55/Person - 13 years and older<br />$23/Person - Children
+                    ages 3 - 12<br />Children under 3 eat free if they will be
+                    eating from their parent's plate
+                  </td>
+                </tr>
+                <tr class="table-warning">
+                  <th scope="row">Miscellaneous Expenses</th>
+                  <td>$15</td>
+                </tr>
+                <tr class="table-secondary">
+                  <th scope="row">T-Shirt(Optional)</th>
+                  <td>
+                    $12 - $15
+                    <em>(T-shirt orders MUST be received by April 20, 2020)</em>
+                  </td>
+                </tr>
+                <tr class="table-warning">
+                  <th scope="row">Family Photo(optional)</th>
+                  <td>$25/Family <em>(Must fill out order form)</em></td>
+                </tr>
+                <tr class="table-secondary">
+                  <th scope="row">On-Site Activities</th>
+                  <td>Purchased Separately through Oglebay</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+      </div>
     </div>
-<!--Footer-->
+
+    <!--Footer-->
     <footer class="site-footer text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 text-center">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Register</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            <!--Social Media Links-->
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
-                    <a href="http://instagram.com/"> <i class="fa fa-instagram fa-2x"> </i> </a>
-                    <a href="https://www.facebook.com/mosleyfamily"> <i class="fa fa-facebook fa-2x"> </i> </a>
-                    <a href="http://twitter.com/"> <i class="fa fa-twitter fa-2x"> </i> </a>
-                    <a href="http://youtube.com/"> <i class="fa fa-youtube fa-2x"> </i> </a>
-                </div>
-            <!--Contact Info-->
-                <div class="col-sm-4 text-light text-center">
-                    <h5>Contact</h5>
-                    <a role="button" class="btn btn-link" href="tel:+15555555555"><i class="fa fa-phone fa-lg text-secondary"> </i>Tel: 1-555-555-5555 </a><br />
-                    <a role="button" class="btn btn-link" href="mailto:rachel@email.com"><i class="fa fa-envelope fa-lg text-secondary"> </i>Email: rachel@email.com</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 text-center">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <!--Social Media Links-->
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a href="http://instagram.com/">
+              <i class="fa fa-instagram fa-2x"> </i>
+            </a>
+            <a href="https://www.facebook.com/mosleyfamily">
+              <i class="fa fa-facebook fa-2x"> </i>
+            </a>
+            <a href="http://twitter.com/">
+              <i class="fa fa-twitter fa-2x"> </i>
+            </a>
+            <a href="http://youtube.com/">
+              <i class="fa fa-youtube fa-2x"> </i>
+            </a>
+          </div>
+          <!--Contact Info-->
+          <div class="col-sm-4 text-light text-center">
+            <h5>Contact</h5>
+            <a role="button" class="btn btn-link" href="tel:+15555555555"
+              ><i class="fa fa-phone fa-lg text-secondary"> </i>Tel:
+              1-555-555-5555 </a
+            ><br />
+            <a role="button" class="btn btn-link" href="mailto:rachel@email.com"
+              ><i class="fa fa-envelope fa-lg text-secondary"> </i>Email:
+              rachel@email.com</a
+            >
+          </div>
         </div>
+      </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>

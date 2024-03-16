@@ -1,15 +1,16 @@
 h1 {
   font-family: "Ubuntu", sans-serif;
   font-size: 80px;
-  color: #ebc670;
-  text-shadow: 2px 2px black;
+  color: #007BFF;
+  text-shadow: 2px 2px #1cda19;
 }
 
 h2 {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Lobster", cursive;
   text-align: center;
-  text-shadow: 2px 2px #e3b343;
+  text-shadow: 2px 2px #1cda19;
   font-size: 50px;
+  color: #007BFF;
 }
 
 h3 {
@@ -25,11 +26,11 @@ h3 > a {
 
 #steel {
   font-size: 60px;
-  text-shadow: 2px 2px #e3b343;
+  text-shadow: 2px 2px #1cda19;
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #fff;
 }
 
 .jumbotron {
@@ -70,7 +71,7 @@ img {
 }
 
 .navbar-custom {
-  background: rgba(33, 33, 33, 0.8);
+  background: rgba(31, 130, 58, 0.8);
 }
 
 #reserveModal .modal-header {
@@ -102,4 +103,10 @@ img {
   height: 80px;
   width: 80px;
   color: #fff;
+}
+
+.emphasize {
+  color: red;
+    font-weight: bold;
+    text-decoration: underline;
 }

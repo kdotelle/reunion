@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <script
+      src="https://kit.fontawesome.com/a75bb5b536.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Mosley Family Reunion</title>
+  </head>
+
+  <body>
+    <!--Header-->
+    <header class="jumbotron">
+      <div class="container-fluid">
+        <div class="row d-flex flex-row flex-wrap" id="header">
+          <div class="col header-text justify-content-center text-center">
+            <h1>Mosley Family Reunion</h1>
+          </div>
+          `
+        </div>
+      </div>
+    </header>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark navbar-custom">
+      <a class="navbar-brand" href="#"> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.marriott.com/en-us/hotels/miagv-courtyard-miami-coconut-grove/overview/"
+              >Hotel</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://coconutgrove.com/"
+              >Things To Do</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!--Introduction Row-->
+      <div
+        class="row row-content d-flex flex-row flex-wrap justify-content-center text-center align-items-start"
+        id="intro"
+      >
+        <div class="col-12">
+          <h2 id="steel">Grateful Gatherings</h2>
+          <h3>An Attitude of Gratitude</h3>
+          <p></p>
+        </div>
+      </div>
+      <!--Details Row-->
+      <div class="row row-content" id="details">
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>When</h2>
+          <i
+            class="fa fa-calendar-check-o fa-3x mx-auto"
+            style="color: #1cda19"
+          >
+          </i>
+          <h3>Fathers Day Weekend</h3>
+          <p class="d-none d-sm-block">June 14 - June 16, 2024</p>
+        </div>
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>Where</h2>
+          <i class="fa fa-map fa-3x mx-auto" style="color: #1cda19"> </i>
+          <h3>Miami, FL</h3>
+          <div class="media d-none d-sm-block">
+            <img
+              class="img-thumbnail d-flex mx-auto"
+              src="images/pexels-antonio-cuellar-4366062.jpg"
+            />
+          </div>
+        </div>
+        <div class="col-sm-4 column-content ml-mr-auto">
+          <h2>Hotel</h2>
+          <i class="fa fa-building-o fa-3x mx-auto" style="color: #1cda19"> </i>
+          <h3>Courtyard Marriott Coconut Grove</h3>
+          <p class="d-none d-sm-block">
+            2649 South Bayshore Drive <br />
+            Miami, Florida 33133
+          </p>
+        </div>
+      </div>
+      <!--Itinerary-->
+      <div class="row row-content">
+        <div class="col">
+          <h2>Itinerary</h2>
+          <div class="row">
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Friday, June 14</h3>
+              <h4>Meet and Greet</h4>
+              <p>6:00pm - 9:00pm</p>
+              <h5 class="d-none d-sm-block">Hotel Poolside</h5>
+              <p class="d-none d-sm-block">
+                There is nothing more exciting than that first "hello" and the
+                excitement of the warm embrace from a family member that you
+                have not seen in a while.
+              </p>
+            </div>
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Saturday, June 15</h3>
+              <h4>Family Picnic</h4>
+              <p>12:00pm - 5:00pm</p>
+              <a href="https://www.miamidade.gov/Parks/crandon.asp">
+                <h5 class="d-none d-sm-block">Crandon Park</h5>
+              </a>
+              <p class="d-none d-sm-block">
+                Transportation will be provided to the park. The <br />
+                <span class="emphasize">Bus departs the hotel at 11am.</span>
+                <br />
+                Family Photo at 3:00pm.
+              </p>
+            </div>
+            <div class="col-sm-4 column-content ml-mr-auto">
+              <h3>Sunday, June 16</h3>
+              <h4>"Cruise on the Bay"</h4>
+              <p>12-4pm</p>
+              <h5 class="d-none d-sm-block">
+                Worship Service and Dinner Cruise
+              </h5>
+              <p class="d-none d-sm-block emphasize">
+                Transportation leaves hotel at 11am.
+              </p>
+              <h5>Boat Departs from the Dock at 12pm</h5>
+              <p>Comfortable cruise attire recommended.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Things to do-->
+      <div class="row row-content">
+        <div class="col">
+          <a href="https://coconutgrove.com/">
+            <h2>Things To Do While In Coconut Grove</h2>
+          </a>
+          <div class="row">
+            <div class="col column-content ml-mr-auto">
+              <ul>
+                <li>Museums and Gardens</li>
+                <li>Shopping Malls and Outdoor Dining</li>
+                <li>Beautiful Boat Docks and Marinas for Sight Seeing</li>
+                <li>Free Trolley to get around and explore Coconut Grove</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="site-footer text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h5>Links</h5>
+            <ul class="list-inline">
+              <li><a href="#">Home</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li>
+                <a
+                  href="https://www.marriott.com/en-us/hotels/miagv-courtyard-miami-coconut-grove/overview/"
+                  >Hotel</a
+                >
+              </li>
+              <li>
+                <a href="https://coconutgrove.com/">Things To Do</a>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+          <!--Social Media Links-->
+          <div class="col text-center">
+            <h5>Social</h5>
+            <a href="https://www.facebook.com/mosleyfamily">
+              <i class="fab fa-facebook fa-2x"> </i>
+            </a>
+          </div>
+          <!--Contact Info-->
+          <div class="col text-light text-center">
+            <h5>Contact</h5>
+
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:mosleyfamilywv@gmail.com"
+              ><i class="fa fa-envelope fa-lg text-secondary"> </i>
+              mosley2024miami@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
